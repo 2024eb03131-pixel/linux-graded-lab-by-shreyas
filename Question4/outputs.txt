@@ -1,0 +1,288 @@
+┌──(kali㉿kali)-[~]
+└─$ uptime
+
+ 08:57:42 up  3:51,  1 user,  load average: 0.37, 0.19, 0.15
+                                                                                                                                                                               
+┌──(kali㉿kali)-[~]
+└─$ ps -u $USER
+
+    PID TTY          TIME CMD
+    860 ?        00:00:01 systemd
+    862 ?        00:00:00 (sd-pam)
+    882 ?        00:00:01 dbus-daemon
+    884 ?        00:00:05 pipewire
+    885 ?        00:00:00 pipewire
+    886 ?        00:00:00 gnome-keyring-d
+    887 ?        00:00:00 mpris-proxy
+    888 ?        00:00:01 wireplumber
+    889 ?        00:00:01 pipewire-pulse
+    903 ?        00:00:04 xfce4-session
+    974 ?        00:00:00 VBoxClient
+    975 ?        00:00:01 VBoxClient
+    981 ?        00:00:00 VBoxClient
+    983 ?        00:00:15 VBoxClient
+    990 ?        00:00:00 VBoxClient
+    992 ?        00:01:09 VBoxClient
+   1017 ?        00:00:00 VBoxClient
+   1018 ?        00:00:04 VBoxClient
+   1032 ?        00:00:00 at-spi-bus-laun
+   1039 ?        00:00:00 dbus-daemon
+   1049 ?        00:00:02 at-spi2-registr
+   1057 ?        00:00:00 ssh-agent
+   1066 ?        00:00:00 gpg-agent
+   1069 ?        00:02:48 xfwm4
+   1073 ?        00:00:00 gvfsd
+   1079 ?        00:00:00 gvfsd-fuse
+   1095 ?        00:00:03 xfsettingsd
+   1100 ?        00:00:00 dconf-service
+   1104 ?        00:00:17 xfce4-panel
+   1109 ?        00:00:58 Thunar
+   1115 ?        00:00:06 xfdesktop
+   1119 ?        00:00:04 wrapper-2.0
+   1125 ?        00:00:58 wrapper-2.0
+   1126 ?        00:00:00 wrapper-2.0
+   1127 ?        00:00:00 polkit-mate-aut
+   1128 ?        00:13:25 wrapper-2.0
+   1129 ?        00:00:01 wrapper-2.0
+   1130 ?        00:00:01 blueman-applet
+   1131 ?        00:00:00 wrapper-2.0
+   1132 ?        00:00:00 xcape
+   1135 ?        00:00:14 wrapper-2.0
+   1136 ?        00:00:00 agent
+   1138 ?        00:00:00 xiccd
+   1146 ?        00:00:07 xfce4-screensav
+   1158 ?        00:00:00 wrapper-2.0
+   1159 ?        00:00:00 applet.py
+   1167 ?        00:00:01 xfce4-power-man
+   1193 ?        00:00:00 nm-applet
+   1202 ?        00:00:07 xfce4-notifyd
+   1295 ?        00:00:00 gvfs-udisks2-vo
+   1326 ?        00:00:01 gvfs-afc-volume
+   1333 ?        00:00:00 gvfs-mtp-volume
+   1342 ?        00:00:00 gvfs-gphoto2-vo
+   1347 ?        00:00:00 gvfs-goa-volume
+   1356 ?        00:00:00 gvfsd-metadata
+   1363 ?        00:00:00 gvfsd-trash
+   1384 ?        00:00:00 obexd
+   1422 ?        00:00:00 xdg-desktop-por
+   1428 ?        00:00:00 xdg-permission-
+   1436 ?        00:00:00 xdg-document-po
+   1453 ?        00:00:00 xdg-desktop-por
+  72592 ?        00:00:00 gvfsd-network
+  72602 ?        00:00:00 gvfsd-dnssd
+  86176 ?        00:00:00 gvfsd-recent
+  86227 ?        00:00:00 gvfsd-computer
+ 106422 ?        00:00:00 xfconfd
+ 106538 ?        00:00:00 qterminal
+ 106544 pts/0    00:00:00 zsh
+ 106890 pts/0    00:00:00 ps
+                                                                                                                                                                               
+┌──(kali㉿kali)-[~]
+└─$ top -u $USER
+
+
+top - 08:58:35 up  3:52,  1 user,  load average: 0.29, 0.20, 0.16
+Tasks: 175 total,   1 running, 174 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.1 us,  3.5 sy,  0.0 ni, 93.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   1973.7 total,    132.2 free,    892.9 used,   1148.3 buff/cache     
+MiB Swap:    953.7 total,    944.9 free,      8.8 used.   1080.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                 
+    884 kali      20   0  112860  12600   7816 S   1.3   0.6   0:05.46 pipewire                                                                                                
+ 106538 kali      20   0  592076  72552  53708 S   1.3   3.6   0:01.10 qterminal                                                                                               
+    992 kali      20   0  215384   3228   2932 S   0.7   0.2   1:09.52 VBoxClient                                                                                              
+   1069 kali      20   0  898188 126184  73192 S   0.7   6.2   2:49.05 xfwm4                                                                                                   
+   1125 kali      20   0  294964  45356  19140 S   0.7   2.2   0:58.84 wrapper-2.0                                                                                             
+   1039 kali      20   0    8756   4520   3752 S   0.3   0.2   0:00.58 dbus-daemon                                                                                             
+   1049 kali      20   0  168752   7580   6940 S   0.3   0.4   0:02.43 at-spi2-registr                                                                                         
+   1128 kali      20   0  271684  23012  18020 S   0.3   1.1  13:25.99 wrapper-2.0                                                                                             
+   1129 kali      20   0  357252  28956  22680 S   0.3   1.4   0:01.18 wrapper-2.0                                                                                             
+ 107096 kali      20   0   10464   5576   3528 R   0.3   0.3   0:00.10 top                                                                                                     
+    860 kali      20   0   22876  12684  10124 S   0.0   0.6   0:01.43 systemd                                                                                                 
+    862 kali      20   0   25124   3480   1956 S   0.0   0.2   0:00.00 (sd-pam)                                                                                                
+    882 kali      20   0    9332   5696   3904 S   0.0   0.3   0:01.78 dbus-daemon                                                                                             
+    885 kali      20   0   84752   4116   3860 S   0.0   0.2   0:00.02 pipewire                                                                                                
+    886 kali      20   0  183144   9432   8536 S   0.0   0.5   0:00.36 gnome-keyring-d                                                                                         
+    887 kali      20   0    7232   3456   3200 S   0.0   0.2   0:00.14 mpris-proxy                                                                                             
+    888 kali      20   0  612940  21836  14244 S   0.0   1.1   0:01.34 wireplumber                                                                                             
+    889 kali      20   0  172156  14492   7428 S   0.0   0.7   0:01.31 pipewire-pulse                                                                                          
+    903 kali      20   0  351472  36500  15948 S   0.0   1.8   0:04.73 xfce4-session                                                                                           
+    974 kali      20   0   16712   1732   1436 S   0.0   0.1   0:00.00 VBoxClient                                                                                              
+    975 kali      20   0  215540   4364   3812 S   0.0   0.2   0:01.07 VBoxClient                                                                                              
+    981 kali      20   0   16712   1840   1544 S   0.0   0.1   0:00.00 VBoxClient                                                                                              
+    983 kali      20   0  214868   3256   2960 S   0.0   0.2   0:15.04 VBoxClient                                                                                              
+    990 kali      20   0   16712   1900   1604 S   0.0   0.1   0:00.00 VBoxClient                                                                                              
+   1017 kali      20   0   16712   1836   1540 S   0.0   0.1   0:00.00 VBoxClient                                                                                              
+   1018 kali      20   0  215056   3600   3176 S   0.0   0.2   0:04.80 VBoxClient                                                                                              
+   1032 kali      20   0  381172   7540   6900 S   0.0   0.4   0:00.05 at-spi-bus-laun                                                                                         
+   1057 kali      20   0   10676   1680    712 S   0.0   0.1   0:00.00 ssh-agent                                                                                               
+   1066 kali      20   0  155472   3084   2956 S   0.0   0.2   0:00.50 gpg-agent                                                                                               
+   1073 kali      20   0  312792   7084   6444 S   0.0   0.4   0:00.17 gvfsd                                                                                                   
+   1079 kali      20   0  545840   7076   6308 S   0.0   0.4   0:00.04 gvfsd-fuse                                                                                              
+   1095 kali      20   0  273912  22576  15884 S   0.0   1.1   0:03.75 xfsettingsd                                                                                             
+   1100 kali      20   0  165236   5892   5380 S   0.0   0.3   0:00.02 dconf-service                                                                                           
+   1104 kali      20   0  525212  56272  26700 S   0.0   2.8   0:17.19 xfce4-panel                                                                                             
+                                                                                                                                                                               
+┌──(kali㉿kali)-[~]
+└─$ sleep 300 &
+
+[1] 107397
+                                                                                                                                                                               
+┌──(kali㉿kali)-[~]
+└─$ jobs
+
+[1]  + running    sleep 300
+                                                                                                                                                                               
+┌──(kali㉿kali)-[~]
+└─$ ps -o pid,ni,cmd -u $USER
+
+    PID  NI CMD
+    860   0 /usr/lib/systemd/systemd --user
+    862   0 (sd-pam)
+    882   0 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    884   0 /usr/bin/pipewire
+    885   0 /usr/bin/pipewire -c filter-chain.conf
+    886   0 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+    887   0 /usr/bin/mpris-proxy
+    888   0 /usr/bin/wireplumber
+    889   0 /usr/bin/pipewire-pulse
+    903   0 xfce4-session
+    974   0 /usr/bin/VBoxClient --clipboard
+    975   0 /usr/bin/VBoxClient --clipboard
+    981   0 /usr/bin/VBoxClient --seamless
+    983   0 /usr/bin/VBoxClient --seamless
+    990   0 /usr/bin/VBoxClient --draganddrop
+    992   0 /usr/bin/VBoxClient --draganddrop
+   1017   0 /usr/bin/VBoxClient --vmsvga
+   1018   0 /usr/bin/VBoxClient --vmsvga
+   1032   0 /usr/libexec/at-spi-bus-launcher
+   1039   0 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+   1049   0 /usr/libexec/at-spi2-registryd --use-gnome-session
+   1057   0 /usr/bin/ssh-agent -s
+   1066   0 /usr/bin/gpg-agent --supervised
+   1069   0 xfwm4
+   1073   0 /usr/libexec/gvfsd
+   1079   0 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   1095   0 xfsettingsd
+   1100   0 /usr/libexec/dconf-service
+   1104   0 xfce4-panel
+   1109   0 Thunar --daemon
+   1115   0 xfdesktop
+   1119   0 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 27262983 whiskermenu Whisker Menu Show a menu t
+   1125   0 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 27262989 cpugraph CPU Graph Graphical representat
+   1126   0 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 27262990 systray Status Tray Plugin Provides statu
+   1127   0 /usr/libexec/polkit-mate-authentication-agent-1
+   1128   0 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 27262991 genmon Generic Monitor Show output of a co
+   1129   0 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 27262992 pulseaudio PulseAudio Plugin Ad
+   1130   0 /usr/bin/python3 /usr/bin/blueman-applet
+   1131   0 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 27262993 notification-plugin Notificat
+   1132   0 xcape -e Super_L Control_L Escape
+   1135   0 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 27262994 power-manager-plugin Power Mana
+   1136   0 /usr/libexec/geoclue-2.0/demos/agent
+   1138   0 xiccd
+   1146   0 xfce4-screensaver
+   1158   0 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 27262995 actions Action Buttons Log out, lock or o
+   1159   0 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+   1167   0 xfce4-power-manager
+   1193   0 nm-applet
+   1202   0 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+   1295   0 /usr/libexec/gvfs-udisks2-volume-monitor
+   1326   0 /usr/libexec/gvfs-afc-volume-monitor
+   1333   0 /usr/libexec/gvfs-mtp-volume-monitor
+   1342   0 /usr/libexec/gvfs-gphoto2-volume-monitor
+   1347   0 /usr/libexec/gvfs-goa-volume-monitor
+   1356   0 /usr/libexec/gvfsd-metadata
+   1363   0 /usr/libexec/gvfsd-trash --spawner :1.24 /org/gtk/gvfs/exec_spaw/0
+   1384   0 /usr/libexec/bluetooth/obexd
+   1422   0 /usr/libexec/xdg-desktop-portal
+   1428   0 /usr/libexec/xdg-permission-store
+   1436   0 /usr/libexec/xdg-document-portal
+   1453   0 /usr/libexec/xdg-desktop-portal-gtk
+  72592   0 /usr/libexec/gvfsd-network --spawner :1.24 /org/gtk/gvfs/exec_spaw/1
+  72602   0 /usr/libexec/gvfsd-dnssd --spawner :1.24 /org/gtk/gvfs/exec_spaw/2
+  86176   0 /usr/libexec/gvfsd-recent --spawner :1.24 /org/gtk/gvfs/exec_spaw/5
+  86227   0 /usr/libexec/gvfsd-computer --spawner :1.24 /org/gtk/gvfs/exec_spaw/6
+ 106422   0 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+ 106538   0 /usr/bin/qterminal
+ 106544   0 /usr/bin/zsh
+ 107397   5 sleep 300
+ 108063   0 ps -o pid,ni,cmd -u kali
+                                                                                                                                                                               
+┌──(kali㉿kali)-[~]
+└─$ renice 10 -p <PID>
+
+zsh: parse error near `\n'
+                                                                                                                                                                               
+┌──(kali㉿kali)-[~]
+└─$ renice 10 -p 1193 
+
+1193 (process ID) old priority 0, new priority 10
+                                                                                                                                                                               
+┌──(kali㉿kali)-[~]
+└─$ ps -o pid,ni,cmd -p 1193 
+    PID  NI CMD
+   1193  10 nm-applet
+                                                                                                                                                                               
+┌──(kali㉿kali)-[~]
+└─$ free -h
+
+               total        used        free      shared  buff/cache   available
+Mem:           1.9Gi       899Mi       124Mi        16Mi       1.1Gi       1.0Gi
+Swap:          953Mi       8.8Mi       944Mi
+                                                                                                                                                                               
+┌──(kali㉿kali)-[~]
+└─$ df -h ~
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        79G   19G   56G  26% /
+                                                                                                                                                                               
+┌──(kali㉿kali)-[~]
+└─$ echo $SHELL
+
+/usr/bin/zsh
+                                                                                                                                                                               
+┌──(kali㉿kali)-[~]
+└─$ uname -a > system_report.txt
+
+                                                                                                                                                                               
+┌──(kali㉿kali)-[~]
+└─$ cat system_report.txt
+
+Linux kali 6.12.33+kali-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.12.33-1kali1 (2025-06-25) x86_64 GNU/Linux
+                                                                                                                                                                               
+┌──(kali㉿kali)-[~]
+└─$ ncdu ~
+
+Command 'ncdu' not found, but can be installed with:
+sudo apt install ncdu
+Do you want to install it? (N/y)y
+sudo apt install ncdu
+[sudo] password for kali: 
+The following packages were automatically installed and are no longer required:
+  libgdata-common  libhdf4-0-alt       libsoup-2.4-1      libvpx9                python3-pyinstaller-hooks-contrib
+  libgdata22       libqt5ct-common1.8  libsoup2.4-common  python3-packaging-whl  python3-wheel-whl
+Use 'sudo apt autoremove' to remove them.
+
+Installing:
+  ncdu
+                                                                                                                                                                               
+Summary:
+  Upgrading: 0, Installing: 1, Removing: 0, Not Upgrading: 1167
+  Download size: 51.5 kB
+  Space needed: 122 kB / 59.6 GB available
+
+Get:1 http://kali.download/kali kali-rolling/main amd64 ncdu amd64 1.22-1 [51.5 kB]
+Fetched 51.5 kB in 3s (17.8 kB/s)
+Selecting previously unselected package ncdu.
+(Reading database ... 418858 files and directories currently installed.)
+Preparing to unpack .../archives/ncdu_1.22-1_amd64.deb ...
+Unpacking ncdu (1.22-1) ...
+Setting up ncdu (1.22-1) ...
+Processing triggers for man-db (2.13.1-1) ...
+Processing triggers for kali-menu (2025.3.0) ...
+                                                                                                                                                                               
+┌──(kali㉿kali)-[~]
+└─$ 
+[1]  + done       sleep 300
+┌──(kali㉿kali)-[~]
+└─$ 

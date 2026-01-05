@@ -1,0 +1,16 @@
+pwd
+/home/your_username
+
+ls -l plan.txt
+-rw-r--r-- 1 your_username your_username 55 plan.txt
+
+ls -R ~/project_documents
+project_documents:
+archive
+plan.txt
+
+project_documents/archive:
+plan_copy.txt
+
+realpath ~/project_documents/archive/plan_copy.txt
+/home/your_username/project_documents/archive/plan_copy.txt
